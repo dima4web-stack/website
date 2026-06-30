@@ -146,6 +146,20 @@ main > section {
   font-size: 16px;
 }
 
+/* Origin */
+.origin {
+  background: var(--sand-deep);
+  border-radius: 28px;
+  margin-top: 16px;
+}
+.origin p {
+  margin: 0 0 16px;
+  color: var(--ink-soft);
+  font-size: 16px;
+  max-width: 62ch;
+}
+.origin p:last-child { margin-bottom: 0; }
+
 /* Steps */
 .steps { margin-top: 16px; margin-bottom: 16px; }
 .steps__list {
