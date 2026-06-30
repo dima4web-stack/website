@@ -71,7 +71,7 @@ img { max-width: 100%; display: block; }
 main > section {
   padding: 56px 0;
 }
-main > section + section {
+.container + .container {
   margin-top: 64px;
 }
 
@@ -104,7 +104,12 @@ main > section + section {
 }
 
 /* Story */
-.story { background: var(--sand-deep); border-radius: 28px; }
+.story {
+  background: var(--sand-deep);
+  border-radius: 28px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 .story__photo img {
   border-radius: var(--radius);
   width: 100%;
@@ -152,6 +157,8 @@ main > section + section {
 .origin {
   background: var(--sand-deep);
   border-radius: 28px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .origin p {
   margin: 0 0 16px;
